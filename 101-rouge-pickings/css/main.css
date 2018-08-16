@@ -1,0 +1,153 @@
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.third-width {
+  width: 400px;
+  height: 200px;
+  float: left;
+}
+
+/***** ENTIRE PAGE *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+/***** HEADER *****/
+
+h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  float: left;
+}
+
+nav {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 23px;
+  word-spacing: 12px;
+  color: #77a466;
+  text-transform: uppercase;
+  margin-top: 15px;
+  float: right;
+}
+
+span {
+  color:  #77a466;
+}
+
+#header ul {
+  list-style: none;
+}
+
+#header ul li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+#header a {
+  color: #77a466;
+  text-decoration: none;
+}
+
+/***** TOP SECTION *****/
+
+img {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+h2 {
+  font-size: 18px;
+  color: #77a466;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/***** BOTTOM SECTION *****/
+
+h3 {
+  font-size: 12px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+#specials {
+  width: 398px;
+  border-top: 2px solid #dedbdc;
+  border-right: 2px solid #dedbdc;
+  border-bottom: 2px solid #dedbdc;
+}
+
+#specials ul {
+  list-style: none;
+  padding: 0;
+}
+
+#specials ul li {
+  font-size: 16px;
+  line-height: 18px;
+  color: #77a466;
+}
+
+#reviews {
+  width: 340px;
+  padding-right: 30px;
+  border-top: 2px solid #dedbdc;
+  border-bottom: 2px solid #dedbdc;
+}
+
+#reviews p {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#contact {
+  width: 368px;
+  border-top: 2px solid #dedbdc;
+  border-bottom: 2px solid #dedbdc;
+  border-left: 2px solid #dedbdc;
+}
+
+#contact p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#reviews, #contact {
+  padding-left: 30px;
+}
+
+/***** FOOTER *****/
+
+#footer {
+  padding-top: 10px;
+  clear: both;
+  float: inherit;
+}
+
+#footer h4 {
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#footer span {
+  font-family: 'Dancing Script', cursive;
+  color:  #77a466;
+  text-transform: lowercase;
+}

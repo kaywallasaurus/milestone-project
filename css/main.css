@@ -1,0 +1,158 @@
+/***** Grid *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+body {
+  background-color: #1f202b;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***** nav bar *****/
+
+nav {
+  text-align: right;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  margin: 10px 30px 0 0;
+}
+
+a {
+  color: #1beddf;
+  text-decoration: none;
+}
+
+/***** hero *****/
+
+header {
+  background: url('../img/hero-background.png');
+  height: 800px;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Source Code Pro', Courier, serif;
+  font-size: 48px;
+  color: #ffffff;
+  text-transform: lowercase;
+  margin: 275px 0;
+}
+
+/***** portfolio *****/
+
+.left-column {
+  padding-left: 100px;
+  padding-right: 50px;
+  text-align: right;
+}
+
+.img-right {
+  margin-left: 50px;
+}
+
+.right-column {
+  padding-left: 50px;
+  padding-right: 100px;
+  text-align: left;
+}
+
+.img-left {
+  margin-left: 96px;
+}
+
+p {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+#portfolio img {
+  border: 3px solid #888888;
+  width: 450px;
+  margin-bottom: 20px;
+}
+
+#portfolio-top {
+  color: #dddddd;
+  text-align: right;
+}
+
+/***** about *****/
+
+#about {
+  background: url('../img/about.jpg');
+  height: 600px;
+  background-size: cover;
+}
+
+#about h3, #about p {
+  color: #1f202b;
+  text-align: center;
+}
+
+#about-top {
+  color: #1f202b;
+  text-align: right;
+  padding-top: 225px;
+}
+
+/***** contact *****/
+
+#contact img {
+  width: 30px;
+}
+
+/***** footer *****/
+
+footer {
+  text-align: center;
+}
+
+/***** headings *****/
+
+h2, h3 {
+  text-transform: lowercase;
+}
+
+h2 {
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+h3, h4, h6 {
+  font-family: 'Source Code Pro', Courier, serif;
+  text-align: center;
+}
+
+h2, h3, span {
+  color: #1beddf;
+}
+
+h5 {
+  color: #dddddd;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1px;
+  margin-bottom: -5px;
+}

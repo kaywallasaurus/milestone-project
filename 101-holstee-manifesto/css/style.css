@@ -1,0 +1,56 @@
+div {
+	padding: 5px;
+	margin: 5px 5px 5px 5px;
+}
+
+p {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 24px;
+	letter-spacing: 2px;
+	line-height: 30px;
+	text-align: center;
+}
+
+span {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #00ffcc;
+	text-transform: uppercase;
+}
+
+.headfoot {
+  border: 2px solid #000000;
+  background: #BBBBBB;
+	width: 556px;
+  clear: both;
+  margin-bottom: 2px;
+}
+
+.column-a {
+  width: 280px;
+  float: left;
+  margin: 0px;
+}
+
+.column-b {
+  width: 280px;
+	float: right;
+  margin: 0px;
+}
+
+.quote {
+  border: 2px solid #000000;
+  background: #BBBBBB;
+  margin: 0px 0px 5px 0px;
+}
+
+#parent {
+  width: 580px;
+  margin: auto;
+}
+
+#seizethem {
+  height: 146px;
+  padding-top: 25px;
+}
