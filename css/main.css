@@ -27,6 +27,7 @@ body {
 /***** nav bar *****/
 
 nav {
+  font-weight: 700;
   text-align: right;
 }
 
