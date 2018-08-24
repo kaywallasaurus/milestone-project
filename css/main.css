@@ -80,7 +80,7 @@ a {
 
 /***** hero *****/
 
-header {
+#header {
   background: url('../img/hero-background.png');
   height: 800px;
   background-size: cover;
