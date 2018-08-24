@@ -24,6 +24,39 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+
+/***** throughout page *****/
+
+h2, h3 {
+  text-transform: lowercase;
+}
+
+h2 {
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h3, h4, h6 {
+  font-family: 'Source Code Pro', Courier, serif;
+  text-align: center;
+}
+
+h2, h3, span {
+  color: #1beddf;
+}
+
+h5 {
+  color: #dddddd;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1px;
+  margin-bottom: -5px;
+}
+
 /***** nav bar *****/
 
 nav {
@@ -80,12 +113,13 @@ h1 {
 }
 
 .img-left {
-  margin-left: 96px;
+  margin: 25px 0 0 96px;
 }
 
 p {
   color: #ffffff;
   font-size: 14px;
+  line-height: 30px;
 }
 
 #portfolio img {
@@ -102,20 +136,28 @@ p {
 /***** about *****/
 
 #about {
-  background: url('../img/about.jpg');
+  background: url('../img/about2.jpg');
   height: 600px;
   background-size: cover;
 }
 
-#about h3, #about p {
+#about h3, #about p, #about h4 {
   color: #1f202b;
-  text-align: center;
+  text-align: left;
 }
 
 #about-top {
   color: #1f202b;
   text-align: right;
-  padding-top: 225px;
+  width: 800px;
+}
+
+#about h3 {
+  margin-top: 100px;
+}
+
+#about-me {
+  width: 600px;
 }
 
 /***** contact *****/
@@ -128,32 +170,4 @@ p {
 
 footer {
   text-align: center;
-}
-
-/***** headings *****/
-
-h2, h3 {
-  text-transform: lowercase;
-}
-
-h2 {
-  font-weight: 400;
-  letter-spacing: 2px;
-}
-
-h3, h4, h6 {
-  font-family: 'Source Code Pro', Courier, serif;
-  text-align: center;
-}
-
-h2, h3, span {
-  color: #1beddf;
-}
-
-h5 {
-  color: #dddddd;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1px;
-  margin-bottom: -5px;
 }
