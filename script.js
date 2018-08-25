@@ -1,7 +1,7 @@
 var adjectives = ["exciting", "clean", "creative", "fun", "you", "cool"];
 var counter = 0;
 var elem = document.getElementById("adjective");
-var time = 2500;
+var time = 2000;
 
 var change = function () {
   elem.innerText = adjectives[counter];
