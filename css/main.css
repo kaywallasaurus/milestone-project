@@ -24,7 +24,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-
 /***** throughout page *****/
 
 h2, h3 {
@@ -60,7 +59,6 @@ h5 {
 /***** nav bar *****/
 
 nav {
-  font-weight: 700;
   text-align: right;
 }
 
@@ -103,7 +101,7 @@ h1 {
 }
 
 .img-right {
-  margin-left: 50px;
+  margin: 25px 0 0 50px;
 }
 
 .right-column {
@@ -120,6 +118,10 @@ p {
   color: #ffffff;
   font-size: 14px;
   line-height: 30px;
+}
+
+#html-header, #javascript-header {
+  color: #ffffff;
 }
 
 #portfolio img {
