@@ -3,6 +3,7 @@ var counter = 0;
 var elem = document.getElementById("adjective");
 var time = 2000;
 
+//updating adjectives on front page
 var change = function () {
   elem.innerText = adjectives[counter];
   counter++;
@@ -12,3 +13,13 @@ var change = function () {
 };
 
 setInterval(change, time);
+
+//nav bar events
+var nav = document.getElementById("nav");
+
+var navEffect = function () {
+  nav.style.backgroundColor = "#000000";
+  nav.style.color = "#ffffff";
+};
+
+nav.addEventListener("onmouseover", navEffect);
