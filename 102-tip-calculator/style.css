@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  background: linear-gradient(90deg, #0B3954, #A6F4DC);
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Bungee Shade', 'Montserrat', serif;
+  font-size: 48px;
+}
+
+input {
+  width: 75px;
+}
+
+table {
+  margin: 0 auto;
+  background: #ddd;
+  border-radius: 25px;
+  width: 400px;
+}
+
+th {
+  padding: 20px;
+  font-size: 18px;
+}
+
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+#calculate, #reset {
+  background: #ddd;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  width: 100px;
+  border-radius: 10px;
+  border: 0px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+#calculate:hover, #reset:hover {
+  background: #000;
+  color: #fff;
+  border: 0px #000;
+}

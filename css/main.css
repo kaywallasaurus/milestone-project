@@ -1,3 +1,8 @@
+/***** Vars *****/
+:root {
+  --accent: #1beddf;
+  --about-accent: #1f202b;
+}
 /***** Grid *****/
 
 .full-width {
@@ -45,7 +50,7 @@ h3, h4, h6 {
 }
 
 h2, h3, span {
-  color: #1beddf;
+  color: var(--accent);
 }
 
 h5 {
@@ -72,8 +77,13 @@ ul li {
 }
 
 a {
-  color: #1beddf;
+  color: var(--accent);
   text-decoration: none;
+}
+
+nav a:hover {
+  background-color: var(--accent);
+  color: #1f202b;
 }
 
 /***** hero *****/
@@ -144,12 +154,12 @@ p {
 }
 
 #about h3, #about p, #about h4 {
-  color: #1f202b;
+  color: var(--about-accent);
   text-align: left;
 }
 
 #about-top {
-  color: #1f202b;
+  color: var(--about-accent);
   text-align: right;
   width: 800px;
 }

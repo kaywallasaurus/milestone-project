@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vast+Shadow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Tip Calculator</title>
+  </head>
+  <body id="body">
+    <header>
+      <h1>Tip Calculator</h1>
+    </header>
+    <main>
+      <form>
+        <table>
+          <tr>
+            <th colspan=2>Calculate Your Bill!</th>
+          </tr>
+          <tr>
+            <td>How much was your bill?</td>
+            <td>$<input id="bill" type="number" name="bill" placeholder="Bill Amount"></td>
+          </tr>
+          <tr>
+            <td>Tip Percentage:</td>
+            <td>
+              <select id="tip-percent">
+                <option value="5">5%</option>
+                <option value="10">10%</option>
+                <option value="15" selected>15%</option>
+                <option value="20">20%</option>
+                <option value="25">25%</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+           <td>Tip Amount:</td>
+           <td id="tip-amount">???</td>
+          </tr>
+         <tr>
+            <td>Total Bill:</td>
+            <td id="total-bill">???</td>
+          </tr>
+        </table>
+        <input id="calculate" type="button" value="Calculate!">
+        <input id="reset" type="reset" value="Reset!">
+      </form>
+    </main>
+    <footer>
+      <div>
+        <p>&copy; Kayla Wong 2018</p>
+      </div>
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>

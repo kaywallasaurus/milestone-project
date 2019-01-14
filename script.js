@@ -13,13 +13,3 @@ var change = function () {
 };
 
 setInterval(change, time);
-
-//nav bar events
-var nav = document.getElementById("nav");
-
-var navEffect = function () {
-  nav.style.backgroundColor = "#000000";
-  nav.style.color = "#ffffff";
-};
-
-nav.addEventListener("onmouseover", navEffect);
